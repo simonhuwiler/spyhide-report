@@ -74,13 +74,6 @@ The backend for customers is relatively simple. The active devices and their sta
     md_gallery();
 </script>
 
-<div class="gallery gallery-cols-3">
-    <figure>
-        <img src="images/blog.png" alt="Image 1">
-        <figcaption>Image 1</figcaption>
-    </figure>
-    <figure>
-        <a href="images/dbschema.png"><img src="images/dbschema.png" alt="Image 2">
-        <figcaption>Image 2</figcaption></a>
-    </figure>
-</div>
+* ![Image 1](images/blog.png)
+* [![Image 2]images/dbschema.png)](http://example.com/image2_full.jpg)
+
