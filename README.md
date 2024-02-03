@@ -114,7 +114,7 @@ The app can be opened on target devices by calling the number `#3333*` or `#3838
 
 ## A StalkerWare is created: From SpyHide to Virsis
 The story of SpyHide begins sometime in 2015, when Mohammad A. works as a developer for a company that creates websites and apps. It is not known when he decided to focus on spyware. The following dates are verified. It is not always necessarily the date of registration, but can also be the date when the entry was captured by crawlers. 
-|<div style="width:110px">Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>|Action|
+|<div style="width:110px">Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>|Action|
 |:-------------|:--|
 |2015-07-09|**spyhide.com**<br /> Mohammad A. registers spyhide.com in his name and address. IP: `88.198.136.80`|
 |2015-08-14|**Oldest entry in the database**<br />First (test) entry in the database (user mojmadah@yahoo.com.ollllllllllllld, password 123456)|
