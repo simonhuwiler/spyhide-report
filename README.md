@@ -134,25 +134,6 @@ The story of SpyHide begins sometime in 2015, when Mohammad A. works as a develo
 |2023-07-13|**Last login**<br />Spyhide.com is hacked. The site then goes offline - but only for a short time.|
 |2023-07-26|**Hello oospy.com**<br />SpyHide undergoes a rebranding. It is now called oospy.com and focuses on parenting control. Payments are now made to a person with the same surname as Mohammed. The website only remains online for a short time, Hetzner blocks it following a tip-off [from maia and Techcrunch](https://techcrunch.com/2023/10/05/spyhide-oospy-hacked-phone-spyware-shuts-down).|
 
-## Domains associated with SpyHide or its creators
-* Spyhide.com 
-* Spyhide.ir 
-* Virsis.net 
-* best-mobile-tracker.ir  
-* Cellphone-remote-tracker.com 
-* Tesla-ringtone.site 
-* android-tracker.ir  
-* Bestcellphonetracker.ir  
-* firstme.ir  
-* Netvaght.ir  
-* Spycellphone.ir 
-* Oospy.com 
-* Decimastudio.ir (see below) 
-* Decimepay.ir 
-* Decimagroup.ir 
-* Decimaorder.ir 
-* Decimeerp.ir 
-
 # SpyHide and HelloSpy - two stalkerwares, one origin? 
 HelloSpy was a spyware with similar functions to SpyHide. First appearing in 2012, it disappeared sometime at the end of 2019 and attracted attention mainly because of its dubious promotional videos featuring a [female boxer](https://www.youtube.com/watch?v=x43HNXdAt8o) or an [Irishman](https://www.youtube.com/watch?v=BBjysYdnIMM). It was developed by John Nguyen (see [this article by netzpolitik.org](https://netzpolitik.org/2019/spyware-company-leaves-private-customer-data-on-the-internet/ )). SpyHide and HelloSpy are related, even if there is still much to be discovered about this connection. 
 
@@ -249,6 +230,25 @@ There is also another reference to hellospy, so the email address Estaki@hellosp
 
 ## Old log entries 
 A folder called `mydata` contains JSON data as sent to the server by the SpyHide app. There are some indications that this data originates from the developers' devices. A conversation between Mohammed A. and a customer about the (untimely) delivery of software. The messages are in Persian and have not been analysed in detail.
+
+## Domains associated with SpyHide or its creators
+* Spyhide.com 
+* Spyhide.ir 
+* Virsis.net 
+* best-mobile-tracker.ir  
+* Cellphone-remote-tracker.com 
+* Tesla-ringtone.site 
+* android-tracker.ir  
+* Bestcellphonetracker.ir  
+* firstme.ir  
+* Netvaght.ir  
+* Spycellphone.ir 
+* Oospy.com 
+* Decimastudio.ir (see below) 
+* Decimepay.ir 
+* Decimagroup.ir 
+* Decimaorder.ir 
+* Decimeerp.ir 
 
 ## Author of this report
 The author of this report is a journalist from Switzerland with an background in IT, working for the Swiss newspaper [«Neue Zürcher Zeitung»](https://www.nzz.ch/). Contact him at simon.huwiler [-at-] nzz.ch
