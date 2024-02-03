@@ -70,6 +70,65 @@ Rooted devices can also collect the following according to the backend: WhatsApp
 
 The backend for customers is relatively simple. The active devices and their status are displayed in an overview. The SpyWare can be downloaded directly from there as an APK. The individual tabs show further information on the collected data. See the image gallery. 
 
-
-
 <img src="images/dashboard.png" width="30%"></img> <img src="images/sms.png" width="30%"></img> <img src="images/call.png" width="30%"></img> <img src="images/map.png" width="30%"></img> <img src="images/ambient.png" width="30%"></img> <img src="images/images.png" width="30%"></img> 
+
+# The SpyApp - remote installation really possible? 
+
+[In a cinematic trailer](https://www.youtube.com/watch?v=1N98WJrZ2Yk ), SpyHide claims that the SpyWare can be installed without physical contact. This is strongly questioned. 
+
+SpyHide offers two apps. The conventional app is installed on the target device by the attacker himself. As of August 2020, the app has been extended so that it can be installed by the victim themselves. For this purpose, the website "tesla-ringtone.site" was launched as a front. The attacker is supposed to encourage the target to download a ringtone app there. After installation, the app requests an activation code, which is provided by the attacker and connects the target device to his account. 
+
+> «Spyhide remote tracker app is in fact a Ringtone Creator application, but within that is embedded  Spyhide tracking application, the tracker app is completely hidden in Ringtone Creator application, so that you can introduce this application as a professional Ringtone Creator to your target person and encourage him/her to install this application on his/her cell phone.»
+
+This probably did not work. Even old Android devices warn of a "virus" several times. In order to be able to install third-party apps at all, the security settings of the mobile phone must also be changed. All possible authorisations are also requested during installation. It takes a lot of good faith to install this app.
+
+<img src="images/app_2.png" width="18%"></img> 
+<img src="images/app_3.png" width="18%"></img>
+<img src="images/app_4.png" width="18%"></img>
+<img src="images/app_5.png" width="18%"></img>
+<img src="images/app_6.png" width="18%"></img>
+<img src="images/app_7.png" width="18%"></img>
+<img src="images/app_8.png" width="18%"></img>
+<img src="images/app_9.png" width="18%"></img>
+<img src="images/app_10.png" width="18%"></img>
+<img src="images/app_11.png" width="18%"></img>
+
+As soon as the activation code has been entered, the app icon disappears from the home screen. The app also changes its name to "com.wifisettings.editor". The app logs on to the server via POST request using the address http://virsis.net/client/scripts/service_new.php (more on Virsis later). The server is now offline.
+```json
+{  
+    "action": "createCustomAccount",  
+    "deviceId": "861349103823194",  
+    "deviceName": "HONOR FRD-L09",  
+    "devicePhone": " ",  
+    "password": "183251",  
+    "tempCharge": "custom",  
+    "username": "183251"  
+ } 
+```
+
+Über Anrufe auf die Nummer `#3333*` oder `#3838*` lässt sich die App auf Zielgeräten öffnen. 
+
+## A StalkerWare is created: From SpyHide to Virsis
+The story of SpyHide begins sometime in 2015, when Mohammad A. works as a developer for a company that creates websites and apps. It is not known when he decided to focus on spyware. The following dates are verified. It is not always necessarily the date of registration, but can also be the date when the entry was captured by crawlers. 
+|Date|Action|
+|------|:----------------|
+|2015-07-09|**spyhide.com**<br /> Mohammad A. registers spyhide.com in his name and address. IP: 88.198.136.80|
+| | Mohammad A. registers spyhide.com in his name and address. IP: 88.198.136.80 |
+| | Mohammad A. registers spyhide.com in his name and address. IP: 88.198.136.80 |
+
+
+
+### 2015-08-14: Oldest entry in the database 
+First (test) entry in the database (user mojmadah@yahoo.com.ollllllllllllld, password 123456) 
+
+2015-09-17: virsis.net 
+Virsis.net is registered by Mohammad A.. Virsis offers services for search engine optimisation, web design and app development. However, the Virsis server runs the control server until 2023. Whether the company has ever offered legitimate work is questionable. No former employees could be found. 
+
+2016-02-17/2016-02-18: Relocation to Germany 
+Spyhide.com and virsis.net move to Germany to a server of the company Hetzner (144.76.1.163). SpyHide will remain there until Hetzner blocks it in 2023. 
+
+2016-03-20 spyhide.ir 
+The Iranian domain of SpyHide is registered. It also points to the German server. 
+
+2016-03-28: Obfuscation 
+Spyhide.com is obfuscated. New mail address: spyhide.com@gmail.com
