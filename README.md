@@ -19,6 +19,7 @@ maia calls her series of articles "#FuckStalkerware". She writes about StalkerWa
 2. **image upload**: he spyware can transfer images from the target device to the control server. This receives the image and saves it to the file system without checking the file format. A reverse shell could thus be infiltrated via the API of the control server, allowing access to the entire server. 
 
 ![Screenshot of maias blog post](images/blog.png)
+<small>Screenshot of maias blog pos</small>
 
 ## What data is available? 
 
@@ -34,6 +35,7 @@ The data published by Maia at DDOS-Secrets contains:
 Images and audio recordings from target devices are deleted by SpyHide itself after some time. According to the SpyHide backend after three months. However, the metadata remains in the database. SMS messages were also deleted. However, a backup copy from 2019 extends the database by a few more years. 
 
 ![database UML](images/dbschema.png)
+<small>The database schema of the control panell</small>
 
 ## Data insights 
 
@@ -68,12 +70,6 @@ Rooted devices can also collect the following according to the backend: WhatsApp
 
 The backend for customers is relatively simple. The active devices and their status are displayed in an overview. The SpyWare can be downloaded directly from there as an APK. The individual tabs show further information on the collected data. See the Bidler gallery. 
 
-// Gallery
-<script src="misc/md-gallery.js"></script>
-<script>
-    md_gallery();
-</script>
 
-* ![Image 1](images/blog.png)
-* [![Image 2]images/dbschema.png)](http://example.com/image2_full.jpg)
 
+![alt](images/blog.png) ![alt](images/blog.png)
