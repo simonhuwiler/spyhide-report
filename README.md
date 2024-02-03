@@ -228,10 +228,10 @@ The control panel contains a detailed list of over 400 blacklisted e-mail addres
 
 There is also another reference to hellospy, so the email address Estaki@hellospy.com is also entered. 
 
-## Old log entries 
+### Old log entries 
 A folder called `mydata` contains JSON data as sent to the server by the SpyHide app. There are some indications that this data originates from the developers' devices. A conversation between Mohammed A. and a customer about the (untimely) delivery of software. The messages are in Persian and have not been analysed in detail.
 
-## Domains associated with SpyHide or its creators
+### Domains associated with SpyHide or its creators
 * Spyhide.com 
 * Spyhide.ir 
 * Virsis.net 
