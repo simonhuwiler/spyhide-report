@@ -111,11 +111,14 @@ As soon as the activation code has been entered, the app icon disappears from th
 ## A StalkerWare is created: From SpyHide to Virsis
 The story of SpyHide begins sometime in 2015, when Mohammad A. works as a developer for a company that creates websites and apps. It is not known when he decided to focus on spyware. The following dates are verified. It is not always necessarily the date of registration, but can also be the date when the entry was captured by crawlers. 
 |Date|Action|
-|------|:----------------|
+|-----------------|:----------------|
 |2015-07-09|**spyhide.com**<br /> Mohammad A. registers spyhide.com in his name and address. IP: 88.198.136.80|
-| | Mohammad A. registers spyhide.com in his name and address. IP: 88.198.136.80 |
-| | Mohammad A. registers spyhide.com in his name and address. IP: 88.198.136.80 |
-
+|2015-08-14|**Oldest entry in the database**<br />First (test) entry in the database (user mojmadah@yahoo.com.ollllllllllllld, password 123456)|
+|2015-09-17|**virsis.net**<br />Virsis.net is registered by Mohammad A.. Virsis offers services for search engine optimisation, web design and app development. However, the control server runs on the Virsis server until 2023. Whether the company has ever offered legitimate work is questionable. No former employees could be found. |
+|2016-02-17<br />2016-02-18|**Relocation to Germany**<br />Spyhide.com and virsis.net move to Germany to a server of the company Hetzner (144.76.1.163). SpyHide will remain there until Hetzner blocks it in 2023. |
+|2016-03-20|**spyhide.ir**<br />The Iranian domain of SpyHide is registered. It also points to the German server.|
+|2016-03-28|**Obfuscation**<br />Spyhide.com is obfuscated. New email address: spyhide.com@gmail.com|
+|2016-06-23|**More domains**<br />Mohammed A. registers further domains in his name. At least they remain active for a long time:<br />best-mobile-tracker.ir, android-tracker.ir, Bestcellphonetracker.ir, firstme.ir, Netvaght.ir, Spycellphone.ir 
 
 
 ### 2015-08-14: Oldest entry in the database 
