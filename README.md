@@ -34,7 +34,7 @@ The data published by maia at DDOS-Secrets contains:
 Images and audio recordings from target devices are deleted by SpyHide itself after some time. According to the SpyHide backend after three months. However, the metadata remains in the database. SMS messages were also deleted. However, a backup copy from 2019 extends the database by a few more years. 
 
 ![database UML](images/dbschema.png)
-<small>The database schema of the SpyHide backend</small>
+*The database schema of the SpyHide backend*
 
 ## Data insights 
 SpyHide operated with two databases: `admin_spyhide` (first login 2015-08-14) and `admin_spyhidetempbackup23` (first login: 2016-11-01). Even though the structure of the databases is identical, they contain different and both current data. When logging in, the control server first checks the password on the first database. If the login fails, the credentials are tried on the second database. From mid-2018, new users were only registered on the newer database `spyhidetempbackup23`. `admin_spyhide` remained active, however, with the last logins dating from 13 July 2023. 
@@ -78,7 +78,7 @@ SpyHide offers two apps. The conventional app is installed on the target device 
 > «Spyhide remote tracker app is in fact a Ringtone Creator application, but within that is embedded  Spyhide tracking application, the tracker app is completely hidden in Ringtone Creator application, so that you can introduce this application as a professional Ringtone Creator to your target person and encourage him/her to install this application on his/her cell phone.»
 
 ![Screenshot of tesla-ringtone.site](images/tesla.png)
-<small>Screenshot of tesla-ringtone.site</small>
+*Screenshot of tesla-ringtone.site*
 
 This probably did not work. Even old Android devices warn of a «virus» several times. In order to be able to install third-party apps at all, the security settings of the mobile phone must also be changed. All possible authorisations are also requested during installation. It takes a lot of good faith to install this app.
 
@@ -196,10 +196,10 @@ Mostafa M has been appearing more frequently since 2016. He took over the WHOIS 
 Mostafa M. did not respond to enquiries. 
 
 ![Screenshot of maias blog post](images/saramad1.png)
-<small>SpyHide entry in an iranian register</small>
+*SpyHide entry in an iranian register*
 
 ![Screenshot of maias blog post](images/saramad2.png)
-<small>English translation</small>
+*English translation*
 
 ## How does the money get to Iran? Money Mules in Europe
 
@@ -223,7 +223,7 @@ The intention behind these games and whether they contain malware has not been i
 
 <img src="images/decimastudio.png" width="49%"></img> 
 <img src="images/decimastudioplaystore.png" width="49%"></img>
-<small>Left: DecimaStudio website (source: InternetArchive). Right: Google Play Store. Both companies have the same logo.</small>
+*Left: DecimaStudio website (source: InternetArchive). Right: Google Play Store. Both companies have the same logo.*
 
 ## Potential further research and unanswered questions 
 Below is some more or less unstructured information that could be of importance. 
