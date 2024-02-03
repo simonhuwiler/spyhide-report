@@ -1,3 +1,7 @@
+
+![Screenshot of maias blog post](images/header.png)
+*Illustration by Jonas Oesch / NZZ*
+
 # SpyHide-Report - a research on an Iranian stalkerware
 ## Abstract
 SpyHide was a stalkerware from Iran. It was hacked by a hacktivist in 2023. This article looks at this stalkerware, how it worked and who was behind it. The report is aimed at a technically interested audience and is intended to facilitate further investigations. The research served as a basis for [this article for the Swiss Newspaper «Neue Zürcher Zeitung»](https://www.nzz.ch/gesellschaft/wenn-der-schatz-auf-handy-mitliest-wie-eine-schweizerin-von-ihrem-partner-mit-iranischer-spyware-ausspioniert-wurde-ld.1775351).
@@ -19,7 +23,7 @@ maia calls her series of articles "#FuckStalkerware". In these articles she writ
 2. **image upload**: he spyware can transfer images from the target device to the control server. This receives the image and saves it to the file system without checking the file format. A reverse shell could thus be infiltrated via the API of the control server, allowing access to the entire server. 
 
 ![Screenshot of maias blog post](images/blog.png)
-<small>Screenshot of maias [blog post](https://maia.crimew.gay/posts/fuckstalkerware-2/)</small>
+*Screenshot of maias [blog post](https://maia.crimew.gay/posts/fuckstalkerware-2/)*
 
 ## What data is available? 
 The data published by maia at DDOS-Secrets contains: 
@@ -49,7 +53,7 @@ The two databases show that
 * **1.2 million calls** recorded 
 * **380,000 images** copied 
 
-The databases receive various information on payments. It appears that the payment provider was changed several times. Payment data mainly ends up in the `spy_orders` and `spy_direct_payment` tables. Adding up all verified payments (`verified`` status), SpyHide has collected 717,202 dollars. This does not include payments in Iranian riyals. Its exchange rate is so low that these payments - despite their large number - are not significant.
+The databases receive various information on payments. It appears that the payment provider was changed several times. Payment data mainly ends up in the `spy_orders` and `spy_direct_payment` tables. Adding up all verified payments (`verified` status), SpyHide has collected 717,202 dollars. This does not include payments in Iranian riyals. Its exchange rate is so low that these payments - despite their large number - are not significant.
 
 ## Hands-on: What SpyHide can do, what it looks like 
 The control server can be restored with a little effort - even if the source code is chaotic and has redundancies. SpyHide collects: 
