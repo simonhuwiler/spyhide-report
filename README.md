@@ -2,9 +2,9 @@
 ![Screenshot of maias blog post](images/header.png)
 *Illustration by Jonas Oesch / NZZ*
 
-# SpyHide-Report - a research on an Iranian stalkerware
+# SpyHide-Report: a research on an Iranian stalkerware
 ## Abstract
-SpyHide was a stalkerware from Iran. It was hacked by a hacktivist in 2023. This article looks at this stalkerware, how it worked and who was behind it. The report is aimed at a technically interested audience and is intended to facilitate further investigations. The research served as a basis for [this article for the Swiss Newspaper «Neue Zürcher Zeitung»](https://www.nzz.ch/gesellschaft/wenn-der-schatz-auf-handy-mitliest-wie-eine-schweizerin-von-ihrem-partner-mit-iranischer-spyware-ausspioniert-wurde-ld.1775351).
+SpyHide was a stalkerware from Iran. It was hacked by a hacktivist in 2023. This article looks at this stalkerware, how it worked and who was behind it. The report is aimed at a technically interested audience and is intended to facilitate further investigations. The research served as a basis for [this article in the Swiss Newspaper «Neue Zürcher Zeitung»](https://www.nzz.ch/gesellschaft/wenn-der-schatz-auf-handy-mitliest-wie-eine-schweizerin-von-ihrem-partner-mit-iranischer-spyware-ausspioniert-wurde-ld.1775351).
 
 ## Introduction 
 Stalkerware or spouseware are surveillance apps that can be bought for just a few dollars. Technologically, they are not comparable with products from state actors. They are simpler in design and hardly exploit any gaps in smartphones. The surveillance operator needs access to the target's smartphone in order to install the app. And that is what makes them so dangerous: warnings on the mobile phone can be clicked away by the perpetrator, and security measures and malware scanners can even be deactivated.  
@@ -17,7 +17,7 @@ It is recommended to read [maia's analysis first](https://maia.crimew.gay/posts/
 
 ## The attack
 
-maia calls her series of articles "#FuckStalkerware". In these articles she writes about StalkerWare. The data is made available to her, or she attacks the manufacturers herself. In 2023, SpyHide became her target. Her [blog post](https://maia.crimew.gay/posts/fuckstalkerware-2/) explains how she how she proceeded. She describes it as surprisingly simple. In a nutshell, SpyHide had two vulnerabilities: 
+maia calls her series of articles "#FuckStalkerware". In these articles she writes about StalkerWare. The data is made available to her, or she attacks the manufacturers herself. In 2023, SpyHide became her target. Her [blog post](https://maia.crimew.gay/posts/fuckstalkerware-2/) explains how she proceeded. She describes it as surprisingly simple. In a nutshell, SpyHide had two vulnerabilities: 
 
 1. **git exposure**: the makers of SpyHide copied the git directory (.git) to the server. This allowed maia to access the source code and analyse it for further vulnerabilities 
 2. **image upload**: he spyware can transfer images from the target device to the control server. This receives the image and saves it to the file system without checking the file format. A reverse shell could thus be infiltrated via the API of the control server, allowing access to the entire server. 
@@ -26,7 +26,7 @@ maia calls her series of articles "#FuckStalkerware". In these articles she writ
 *Screenshot of maias [blog post](https://maia.crimew.gay/posts/fuckstalkerware-2/)*
 
 ## What data is available? 
-The data published by maia at DDOS-Secrets contains: 
+The data published by maia at DDOS-Secrets contains data from 2015 to 2023: 
 
 * The backend of SpyHide, written in PHP 
 * MySQL/MariaDB databases of the backend and old backups of them 
@@ -77,7 +77,7 @@ The backend for customers is relatively simple. The active devices and their sta
 # The App and the myth of remote installation
 [In a cinematic trailer](https://www.youtube.com/watch?v=1N98WJrZ2Yk), SpyHide claims that the SpyWare can be installed without physical contact. This is strongly questioned. 
 
-SpyHide offers two apps. The conventional app is installed on the target device by the attacker himself. As of August 2020, the app has been extended so that it can be installed by the victim themselves. For this purpose, the website *tesla-ringtone.site* was launched as a front. The attacker is supposed to encourage the target to download a ringtone app there. After installation, the app requests an activation code, which is provided by the attacker and connects the target device to his account. 
+SpyHide offers two apps. The conventional app is installed on the target device by the attacker himself. As of August 2020, the app has been extended so that it can be installed by the victim themselves. For this purpose, the website *tesla-ringtone.site* was launched as a front. The attacker is supposed to encourage the target to download a ringtone app there. After installation, the app requests an activation code, which is provided by the attacker and connects the target device to his account. SpyHide described the app as follows:
 
 > «Spyhide remote tracker app is in fact a Ringtone Creator application, but within that is embedded  Spyhide tracking application, the tracker app is completely hidden in Ringtone Creator application, so that you can introduce this application as a professional Ringtone Creator to your target person and encourage him/her to install this application on his/her cell phone.»
 
@@ -129,7 +129,7 @@ The story of SpyHide begins sometime in 2015, when Mohammad A. works as a develo
 |2016-12-28|**Ahmed K. K.** <br />A new name appears: ahmed***@gmail.com logs into the control server as a user. His email address will appear later in the payment interface.|
 |2017-05-01|**Mostafa M. takes over spyhide.ir**<br />The Whois entry of Spyhide.ir is also changed to Mostafa M.|
 |2017-12-15|**android-tracker.ir changes hands**<br />Amir A. F. takes over the domain. [Underspy](https://web.archive.org/web/20180902155342/https://underspy.org/ ), a spyware that appears to have nothing to do with SpyHide, runs on the same server.|
-|2018-01-18|**Virsis.net supposedly goes offline**<br />The web design company virsis.net no longer seems to exist, an error message appears. However, this message is fake, it is an HTML page designed to simulate a non-existent server. The backend still runs via this domain|
+|2018-01-18|**Virsis.net supposedly goes offline**<br />The web design company virsis.net no longer seems to exist, an error message appears. However, this message is fake, it is an HTML page designed to simulate a non-existent server. The backend still runs via this domain.|
 |2020-08-25|**Tesla-ringtone**<br />In the Corona year, tesla-ringtone.site is registered and the new app is announced.|
 |2023-07-13|**Last login**<br />Spyhide.com is hacked. The site then goes offline - but only for a short time.|
 |2023-07-26|**Hello oospy.com**<br />SpyHide undergoes a rebranding. It is now called oospy.com and focuses on parenting control. Payments are now made to a person with the same surname as Mohammed. The website only remains online for a short time, Hetzner blocks it following a tip-off [from maia and Techcrunch](https://techcrunch.com/2023/10/05/spyhide-oospy-hacked-phone-spyware-shuts-down).|
@@ -139,15 +139,15 @@ HelloSpy was a spyware with similar functions to SpyHide. First appearing in 201
 
 In the database for SpyHide's WordPress site, there are various posts (`wp_posts`) with texts about Hellospy that are no longer visible. «You will need access to your iPhone at least the first time you install HelloSPY.» The email address contact@hellospy.com is also referenced. 
 
-A user estaki@hellospy.com has made various payments to HelloSpy. His email address was blacklisted in the backend code. 
+A user estaki@hellospy.com has made various payments to SpyHide. His email address was blacklisted in the backend code. 
 
-A reverse-engineering of the SpyHide android app also reveals references to HelloSpy. The app can download the ffmpeg programme library from http://hellospy.com/downloads/ffmpeg. There are also old references to `flushdata3.hellospy.com`. In logbock.xml, the data storage location is defined as `com.hellospy.system`.
+A reverse-engineering of the SpyHide android app also reveals references to HelloSpy. The app can download the ffmpeg programme library from `http://hellospy.com/downloads/ffmpeg`. There are also old references to `flushdata3.hellospy.com`. In logbock.xml, the data storage location is defined as `com.hellospy.system`.
 The app's SQLite database also contains old references to a Vietnamese news portal, visible only with a hex editor. 
 
 ![Screenshot of maias blog post](images/hellospy1.png)
 ![Screenshot of maias blog post](images/hellospy2.png)
 
-<small>References in the SpyHide app to helloSPY</small>
+*References in the SpyHide app to helloSPY*
 
 SpyHide may have been developed on the basis of HelloSpy. Whether the source code was purchased or obtained elsewhere remains unclear. 
 
@@ -167,7 +167,7 @@ He is presumably the creater of SpyHide. Evidence to support this finding:
 Not much is known about his motives. His LinkedIn profile states that he is a software developer from the Iranian city of Mashhad and likes tennis. The city of Mashhad appears again and again in the research. When asked, he himself initially said that he had never heard of SpyHide, but later changed his statement. He had once done something very small, but couldn't remember much about it. 
 
 ### Excursus: DecimaGroup - Mohammed A.'s side businesses 
-SpyHide does not appear to be Mohammed M.'s only dubious business. His «DecimaGroup» was created around 2020. The domain decimagroup.ir was re-registered in his name in June with the address `blv mofateh - mofateh 6 - plak 397, mashhad, khorasan razavi, IR`. Various service providers are summarised under the group of companies. DecimaPay was designed to facilitate the transfer of money to Iran. DecimaOrder focussed on the import of goods. The company's aim was to circumvent international sanctions. This is what [it said on decimapay.ir](https://web.archive.org/web/20221120010454/https://decimapay.ir/):
+SpyHide does not appear to be Mohammed M.'s only dubious business. His «DecimaGroup» was created around 2020. The domain decimagroup.ir was registered in his name in June with the address `blv mofateh - mofateh 6 - plak 397, mashhad, khorasan razavi, IR`. Various service providers are summarised under the group of companies. DecimaPay was designed to facilitate the transfer of money to Iran. DecimaOrder focussed on the import of goods. The company's aim was to circumvent international sanctions. This is what [it said on decimapay.ir](https://web.archive.org/web/20221120010454/https://decimapay.ir/):
 
  > «Decima Technology Company, by employing expert forces in the field of foreign exchange payments and providing services such as buying from foreign stores with PayPal accounts and credit cards as well as other payment systems, has been able to remove the restrictions that Iranians have in purchasing from websites and stores to solve the problems of foreign internet due to sanctions.» 
 
