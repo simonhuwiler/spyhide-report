@@ -11,13 +11,13 @@ Stalkerware or spouseware are surveillance apps that can be bought for just a fe
 
 Many providers position their app in the parent-child market («parenting control»). The app is supposed to be used to monitor the child's mobile phone use. In reality, however, the app is used by others: people who want to monitor their nearest and dearest, usually their partner. 
 
-In 2023, a major provider from Iran was hacked by the Swiss hacktivist [maia arson crimew](https://maia.crimew.gay/) (lower case according to maia). The data was published on the hacktivist platform DDOS Secrets for journalists and scientists. 
+In 2023, a major provider from Iran was hacked by the Swiss hacktivist [maia arson crimew](https://maia.crimew.gay/) (lower case according to maia). The data was published on the hacktivist platform DDoSecrets for journalists and scientists. 
 
 It is recommended to read [maia's analysis first](https://maia.crimew.gay/posts/fuckstalkerware-2/).
 
 ## The attack
 
-maia calls her series of articles "#FuckStalkerware". In these articles she writes about StalkerWare. The data is made available to her, or she attacks the manufacturers herself. In 2023, SpyHide became her target. Her [blog post](https://maia.crimew.gay/posts/fuckstalkerware-2/) explains how she proceeded. She describes it as surprisingly simple. In a nutshell, SpyHide had two vulnerabilities: 
+maia calls her series of articles `#FuckStalkerware`. In these articles she writes about different StalkerWare and their data. The data is made available to her, or she attacks the manufacturers herself. In 2023, SpyHide became her target. Her [blog post](https://maia.crimew.gay/posts/fuckstalkerware-2/) explains how she proceeded. She describes it as surprisingly simple. In a nutshell, SpyHide had two vulnerabilities: 
 
 1. **git exposure**: the makers of SpyHide copied the git directory (.git) to the server. This allowed maia to access the source code and analyse it for further vulnerabilities 
 2. **image upload**: he spyware can transfer images from the target device to the control server. This receives the image and saves it to the file system without checking the file format. A reverse shell could thus be infiltrated via the API of the control server, allowing access to the entire server. 
@@ -26,7 +26,7 @@ maia calls her series of articles "#FuckStalkerware". In these articles she writ
 *Screenshot of maias [blog post](https://maia.crimew.gay/posts/fuckstalkerware-2/)*
 
 ## What data is available? 
-The data published by maia at DDOS-Secrets contains data from 2015 to 2023: 
+The data published by maia at DDoSecrets contains data from 2015 to 2023: 
 
 * The backend of SpyHide, written in PHP 
 * MySQL/MariaDB databases of the backend and old backups of them 
@@ -61,7 +61,7 @@ The control server can be restored with a little effort - even if the source cod
 * **general mobile phone data** (operating system, settings, etc.) 
 * **GPS** history 
 * **SMS** Messages
-* **call**s and the option to record them 
+* **calls** and the option to record them 
 * **photos** 
 * a list of all **contacts** 
 * a list of installed **apps** 
@@ -119,7 +119,7 @@ The story of SpyHide begins sometime in 2015, when Mohammad A. works as a develo
 |2015-07-09|**spyhide.com**<br /> Mohammad A. registers spyhide.com in his name and address. IP: `88.198.136.80`|
 |2015-08-14|**Oldest entry in the database**<br />First (test) entry in the database (user `mojmadah@yahoo.com.ollllllllllllld`, password `123456`)|
 |2015-09-17|**virsis.net**<br />Virsis.net is registered by Mohammad A.. Virsis offers services for search engine optimisation, web design and app development. However, the control server runs on the Virsis server until 2023. Whether the company has ever offered legitimate work is questionable. No former employees could be found. |
-|2016-02-17/<br />2016-02-18|**Relocation to Germany**<br />Spyhide.com and virsis.net move to Germany to a server of the company Hetzner (`144.76.1.163`). SpyHide will remain there until Hetzner blocks it in 2023. |
+|2016-02-17/<br />2016-02-18|**Relocation to Germany**<br />Spyhide.com and virsis.net move to Germany to a server of the company [Hetzner](https://www.hetzner.com/) (`144.76.1.163`). SpyHide will remain there until Hetzner blocks it in 2023. |
 |2016-03-20|**spyhide.ir**<br />The Iranian domain of SpyHide is registered. It also points to the German server.|
 |2016-03-28|**Obfuscation**<br />Spyhide.com is obfuscated, Mohammeds name disappears. New email address: spyhide.com@gmail.com|
 |2016-06-23|**More domains**<br />Mohammed A. registers further domains in his name. Most do not remain active for long:<br />`best-mobile-tracker.ir`, `android-tracker.ir`, `Bestcellphonetracker.ir`, `firstme.ir`, `Netvaght.ir`, `Spycellphone.ir` 
@@ -135,7 +135,7 @@ The story of SpyHide begins sometime in 2015, when Mohammad A. works as a develo
 |2023-07-26|**Hello oospy.com**<br />SpyHide undergoes a rebranding. It is now called oospy.com and focuses on parenting control. Payments are now made to a person with the same surname as Mohammed. The website only remains online for a short time, Hetzner blocks it following a tip-off [from maia and Techcrunch](https://techcrunch.com/2023/10/05/spyhide-oospy-hacked-phone-spyware-shuts-down).|
 
 # SpyHide and HelloSpy - two stalkerwares, one origin? 
-HelloSpy was a spyware with similar functions to SpyHide. First appearing in 2012, it disappeared sometime at the end of 2019 and attracted attention mainly because of its dubious promotional videos featuring a [female boxer](https://www.youtube.com/watch?v=x43HNXdAt8o) or an [Irishman](https://www.youtube.com/watch?v=BBjysYdnIMM). It was developed by John Nguyen (see [this article by netzpolitik.org](https://netzpolitik.org/2019/spyware-company-leaves-private-customer-data-on-the-internet/ )). SpyHide and HelloSpy are related, even if there is still much to be discovered about this connection. 
+HelloSpy («helloSPY» in own spelling) was a spyware with similar functions to SpyHide. First appearing in 2012, it disappeared sometime at the end of 2019, probably due to a data breach (see [this article by netzpolitik.org](https://netzpolitik.org/2019/spyware-company-leaves-private-customer-data-on-the-internet/)). It attracted attention because of its dubious promotional videos featuring a [female boxer](https://www.youtube.com/watch?v=x43HNXdAt8o) or an [Irishman](https://www.youtube.com/watch?v=BBjysYdnIMM). It was developed by John Nguyen. SpyHide and HelloSpy are related, even if there is still much to be discovered about this connection. 
 
 In the database for SpyHide's WordPress site, there are various posts (`wp_posts`) with texts about Hellospy that are no longer visible. «You will need access to your iPhone at least the first time you install HelloSPY.» The email address contact@hellospy.com is also referenced. 
 
@@ -150,6 +150,8 @@ The app's SQLite database also contains old references to a Vietnamese news port
 *References in the SpyHide app to helloSPY*
 
 SpyHide may have been developed on the basis of HelloSpy. Whether the source code was purchased or obtained elsewhere remains unclear. 
+
+John Nguyen did not respond to enquiries.
 
 ## The people behind SpyHide
 ### Mohammad (Mojtaba) A. 
@@ -198,11 +200,11 @@ He did not respond to requests.
 ### Michael (Michaël) and Hamed A. 
 When SpyHide 2023 was hacked, Paypal was running on the email address mich***@gmail.com (or mich***_api1.gmail.com). The LinkedIn profile linked to this email address shows a self-employed data analyst from Utrecht in the Netherlands. He also studied there. 
 
-Also entered in the Paypall interface but not commented out is Hamed A. He also lives in Utrecht at the same address. The two may be brothers. Hamed also works in IT. 
+Hamed A. was also visible in the payment interface but not active. He also lives in Utrecht at the same address. The two may be brothers. Hamed also works in IT.
 
-There is another link between Mohammed M. from Iran and Michael A. from Utrecht: DecimaStudio, a company that also belongs to Mohammed A.'s DecimaGroup. This company claims to have developed games for Android. Loopattern was the only game for a long time and is no longer available in the Android Store. It is still available on alternative app stores. Developer mentioned: «Michael A.».
+There is another link between Mohammed M. from Iran and Michael A. from Utrecht: DecimaStudio, a company that also belongs to Mohammed A.'s DecimaGroup. This company claims to have developed games for Android. Loopattern was the only game for a long time and is no longer available in the Google Play Store. It is still available on alternative app stores. Developer mentioned: «Michael A.».
 
-In December 2023, a new game was released under DecimaStudio's Google account: [Knockout](https://play.google.com/store/apps/details?id=com.decimatech.healingmojo.davaa&hl=de&gl=US). The company logo on the Playstore is identical to the company logo on the company website, which can be found [in the internet archive](https://web.archive.org/web/20200323070124/http://decimastudio.ir/). An address in Utrecht is given. Hamid A. is also registered at the same address. 
+In December 2023, a new game was released under DecimaStudio's Google account: [Knockout](https://play.google.com/store/apps/details?id=com.decimatech.healingmojo.davaa&hl=de&gl=US). The company logo on the Playstore is identical to the company logo on the company website, which can be found [in the internet archive](https://web.archive.org/web/20200323070124/http://decimastudio.ir/). An address in Utrecht is given. Hamid A. and Michael A. are also registered at the same address. It looks like Michael from Utrecht is developing these games and publishing them via Mohammed A.'s Google Play account.
 
 The intention behind these games and whether they contain malware has not been investigated. 
 
@@ -214,7 +216,7 @@ The intention behind these games and whether they contain malware has not been i
 Below is some more or less unstructured information that could be of importance. 
 
 ### What is/was EKMagic? 
-EKMagic was an Iranian online shop for magic products. There are chat messages between the operator and Mostafa. There is also a login for EKMagic on the SpyHide WordPress page. The first SpyHide SpyApp internally [had the name Virsys-EKMagic](https://www.amazon.com.au/Virsys-EKMagic/dp/B01F3S3CKS). The connection between the magic shop and SpyHide remains unclear. 
+EKMagic was an Iranian online shop for magic products. There are chat messages between the operator and Mostafa. There is also a login for EKMagic on the SpyHide WordPress page. The first SpyHide SpyApp internally [had the name `Virsys-EKMagic`](https://www.amazon.com.au/Virsys-EKMagic/dp/B01F3S3CKS). The connection between the magic shop and SpyHide remains unclear. 
 
 There are also other Wordpress logins that could not be broken down: 
 * mna****@gmail.com (registered to Mohamad N.)  
@@ -224,9 +226,7 @@ There are also other Wordpress logins that could not be broken down:
 
 ### Blacklist e-mail addresses 
 
-The control panel contains a detailed list of over 400 blacklisted e-mail addresses (variable `$blacklist_iranian_custom`). Whether this blacklist worked and when it took effect was not investigated, but why these people ended up on the list could prove interesting. 
-
-There is also another reference to hellospy, so the email address Estaki@hellospy.com is also entered. 
+The control panel contains a detailed list of over 400 blacklisted e-mail addresses (variable `$blacklist_iranian_custom`). Whether this blacklist worked and when it took effect was not investigated, but why these people ended up on the list could prove interesting. We have written to several addresses but have not received a reply. HelloSpy (`estaki@hellospy.com`) also appears on this blacklist.
 
 ### Old log entries 
 A folder called `mydata` contains JSON data as sent to the server by the SpyHide app. There are some indications that this data originates from the developers' devices. A conversation between Mohammed A. and a customer about the (untimely) delivery of software. The messages are in Persian and have not been analysed in detail.
@@ -244,7 +244,7 @@ A folder called `mydata` contains JSON data as sent to the server by the SpyHide
 * Netvaght.ir  
 * Spycellphone.ir 
 * Oospy.com 
-* Decimastudio.ir (see below) 
+* Decimastudio.ir
 * Decimepay.ir 
 * Decimagroup.ir 
 * Decimaorder.ir 
