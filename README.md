@@ -232,23 +232,23 @@ The control panel contains a detailed list of over 400 blacklisted e-mail addres
 A folder called `mydata` contains JSON data as sent to the server by the SpyHide app. There are some indications that this data originates from the developers' devices. A conversation between Mohammed A. and a customer about the (untimely) delivery of software. The messages are in Persian and have not been analysed in detail.
 
 ### Domains associated with SpyHide or its creators
-* Spyhide.com 
-* Spyhide.ir 
-* Virsis.net 
+* spyhide.com 
+* spyhide.ir 
+* virsis.net 
 * best-mobile-tracker.ir  
-* Cellphone-remote-tracker.com 
-* Tesla-ringtone.site 
+* cellphone-remote-tracker.com 
+* tesla-ringtone.site 
 * android-tracker.ir  
-* Bestcellphonetracker.ir  
+* bestcellphonetracker.ir  
 * firstme.ir  
-* Netvaght.ir  
-* Spycellphone.ir 
-* Oospy.com 
-* Decimastudio.ir
-* Decimepay.ir 
-* Decimagroup.ir 
-* Decimaorder.ir 
-* Decimeerp.ir 
+* netvaght.ir  
+* spycellphone.ir 
+* oospy.com 
+* decimastudio.ir
+* decimepay.ir 
+* decimagroup.ir 
+* decimaorder.ir 
+* decimeerp.ir 
 
 ## Author of this report
 The author of this report is a journalist from Switzerland with an background in IT, working for the Swiss newspaper [«Neue Zürcher Zeitung»](https://www.nzz.ch/). Contact him at simon.huwiler [-at-] nzz.ch
