@@ -73,7 +73,7 @@ The backend for customers is relatively simple. The active devices and their sta
 
 <img src="images/dashboard.png" width="30%"></img> <img src="images/sms.png" width="30%"></img> <img src="images/call.png" width="30%"></img> <img src="images/map.png" width="30%"></img> <img src="images/ambient.png" width="30%"></img> <img src="images/images.png" width="30%"></img> 
 
-# The App and the myth of remote installation
+## The App and the myth of remote installation
 [In a cinematic trailer](https://www.youtube.com/watch?v=1N98WJrZ2Yk), SpyHide claims that the SpyWare can be installed without physical contact. This is strongly questioned. 
 
 SpyHide offers two apps. The conventional app is installed on the target device by the attacker himself. As of August 2020, the app has been extended so that it can be installed by the victim themselves. For this purpose, the website *tesla-ringtone.site* was launched as a front. The attacker is supposed to encourage the target to download a ringtone app there. After installation, the app requests an activation code, which is provided by the attacker and connects the target device to his account. SpyHide described the app as follows:
@@ -133,7 +133,7 @@ The story of SpyHide begins sometime in 2015, when Mohammad A. works as a develo
 |2023-07-13|**Last login**<br />Spyhide.com is hacked. The site then goes offline - but only for a short time.|
 |2023-07-26|**Hello oospy.com**<br />SpyHide undergoes a rebranding. It is now called oospy.com and focuses on parenting control. Payments are now made to a person with the same surname as Mohammed. The website only remains online for a short time, Hetzner blocks it following a tip-off [from maia and Techcrunch](https://techcrunch.com/2023/10/05/spyhide-oospy-hacked-phone-spyware-shuts-down).|
 
-# SpyHide and HelloSpy - two stalkerwares, one origin? 
+## SpyHide and HelloSpy - two stalkerwares, one origin? 
 HelloSpy («helloSPY» in own spelling) was a spyware with similar functions to SpyHide. First appearing in 2012, it disappeared sometime at the end of 2019, probably due to a data breach (see [this article by netzpolitik.org](https://netzpolitik.org/2019/spyware-company-leaves-private-customer-data-on-the-internet/)). It attracted attention because of its dubious promotional videos featuring a [female boxer](https://www.youtube.com/watch?v=x43HNXdAt8o) or an [Irishman](https://www.youtube.com/watch?v=BBjysYdnIMM). It was developed by John Nguyen. SpyHide and HelloSpy are related, even if there is still much to be discovered about this connection. 
 
 In the database for SpyHide's WordPress site, there are various posts (`wp_posts`) with texts about Hellospy that are no longer visible. «You will need access to your iPhone at least the first time you install HelloSPY.» The email address contact@hellospy.com is also referenced. 
