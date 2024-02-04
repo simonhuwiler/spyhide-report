@@ -16,7 +16,6 @@ In 2023, a major provider from Iran was hacked by the Swiss hacktivist [maia ars
 It is recommended to read [maia's analysis first](https://maia.crimew.gay/posts/fuckstalkerware-2/).
 
 ## The attack
-
 maia calls her series of articles `#FuckStalkerware`. In these articles she writes about different StalkerWare and their data. The data is made available to her, or she attacks the manufacturers herself. In 2023, SpyHide became her target. Her [blog post](https://maia.crimew.gay/posts/fuckstalkerware-2/) explains how she proceeded. She describes it as surprisingly simple. In a nutshell, SpyHide had two vulnerabilities: 
 
 1. **git exposure**: the makers of SpyHide copied the git directory (.git) to the server. This allowed maia to access the source code and analyse it for further vulnerabilities 
