@@ -224,7 +224,7 @@ There are also other Wordpress logins that could not be broken down:
 * aliexpress.razavi@gmail.com  
 * ekmagicshop@gmail.com
 
-### Blacklist e-mail addresses 
+### Blacklisted e-mail addresses 
 
 The control panel contains a detailed list of over 400 blacklisted e-mail addresses (variable `$blacklist_iranian_custom`). Whether this blacklist worked and when it took effect was not investigated, but why these people ended up on the list could prove interesting. We have written to several addresses but have not received a reply. HelloSpy (`estaki@hellospy.com`) also appears on this blacklist.
 
